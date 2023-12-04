@@ -5,6 +5,8 @@
       src="@/assets/images/Y_Combinator_logo.svg"
       alt=""
     />
-    <h1 class="text-2xl font-bold ml-2 dark:text-white">Hacker News</h1>
+    <h1 class="text-2xl font-bold ml-2 dark:text-white animate-colors">
+      Hacker News
+    </h1>
   </div>
 </template>

@@ -17,3 +17,7 @@
 #app {
   @apply h-full;
 }
+
+.animate-colors {
+  @apply transition-colors duration-300 ease-in-out;
+}

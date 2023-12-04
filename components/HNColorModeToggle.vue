@@ -7,7 +7,7 @@ const toggleColorMode = () => {
 </script>
 
 <template>
-  <HNButton class="absolute top-2 right-2" @click="toggleColorMode">
+  <HNButton @click="toggleColorMode">
     <Icon
       v-if="$colorMode.value === 'dark'"
       name="material-symbols:dark-mode-outline"
