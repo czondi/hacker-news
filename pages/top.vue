@@ -3,7 +3,7 @@ const error = ref("");
 const storyIds = ref<number[]>([]);
 
 try {
-  storyIds.value = await $fetch("/api/stories/new");
+  storyIds.value = await $fetch("/api/stories/top");
 } catch (e) {
   error.value = (e as Error).message;
 }

@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       meta: [{ name: "description", content: 'A "Hacker News" redesign.' }],
     },
     rootId: "app",
+    pageTransition: { name: "page", mode: "out-in" },
   },
   modules: [
     "@nuxtjs/eslint-module",

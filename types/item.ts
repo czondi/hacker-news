@@ -1,4 +1,4 @@
-export const itemTypes = ["top", "new", "ask", "show", "jobs"] as const;
+export const itemTypes = ["top", "new", "ask", "show", "job", "best"] as const;
 
 export type ItemType = (typeof itemTypes)[number];
 
