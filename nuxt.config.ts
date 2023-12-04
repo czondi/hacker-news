@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     "@formkit/auto-animate/nuxt",
     "@nuxtjs/color-mode",
     "nuxt-icon",
+    "@vueuse/nuxt",
   ],
   eslint: {
     lintOnStart: false,

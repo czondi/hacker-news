@@ -1,10 +1,14 @@
 <template>
-  <div class="bg-zinc-200 dark:bg-zinc-800 min-h-full animate-colors">
+  <div class="bg-zinc-200 dark:bg-zinc-800 animate-colors overflow-hidden">
     <HNHeader />
     <main>
-      <div class="max-w-5xl mx-auto p-4">
-        <slot />
-      </div>
+      <slot />
     </main>
   </div>
 </template>
+
+<style scoped>
+main {
+  height: calc(100vh - 52px);
+}
+</style>
