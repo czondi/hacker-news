@@ -21,4 +21,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
   },
+  runtimeConfig: {
+    hnBaseUrl: "https://hacker-news.firebaseio.com/v0",
+  },
 });

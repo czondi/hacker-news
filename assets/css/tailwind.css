@@ -14,10 +14,12 @@
   }
 }
 
-#app {
-  @apply h-full;
+@layer utilities {
+  .animate-colors {
+    @apply transition-colors duration-300 ease-in-out;
+  }
 }
 
-.animate-colors {
-  @apply transition-colors duration-300 ease-in-out;
+#app {
+  @apply h-full;
 }

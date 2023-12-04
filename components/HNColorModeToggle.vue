@@ -2,12 +2,12 @@
 const colorMode = useColorMode();
 
 const toggleColorMode = () => {
-  colorMode.value = colorMode.value === "light" ? "dark" : "light";
+  colorMode.preference = colorMode.preference === "light" ? "dark" : "light";
 };
 </script>
 
 <template>
-  <HNButton @click="toggleColorMode">
+  <HNButton flavor="primary" @click="toggleColorMode">
     <Icon
       v-if="$colorMode.value === 'dark'"
       name="material-symbols:dark-mode-outline"
