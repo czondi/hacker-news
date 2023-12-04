@@ -1,5 +1,8 @@
 <template>
-  <div class="flex justify-center items-center h-full bg-[#ff6e00]">
-    <img src="@/assets/splash.webp" alt="Hacker News logo" />
+  <div class="h-full">
+    <div class="flex justify-center items-center h-full">
+      <HNLogo />
+    </div>
+    <HNColorModeToggle />
   </div>
 </template>

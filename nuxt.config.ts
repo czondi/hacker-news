@@ -11,6 +11,14 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/eslint-module",
     "@nuxtjs/tailwindcss",
-    "@formkit/auto-animate",
+    "@formkit/auto-animate/nuxt",
+    "@nuxtjs/color-mode",
+    "nuxt-icon",
   ],
+  eslint: {
+    lintOnStart: false,
+  },
+  colorMode: {
+    classSuffix: "",
+  },
 });
